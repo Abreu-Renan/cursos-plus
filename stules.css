@@ -149,7 +149,14 @@ body {
     color: purple;
 }
 
-.container__botao:hover {
+.container__botao:hover{
+    background-color: transparent;
+    color: var(--branco-principal);
+    border: 8px solid var(--branco-principal)
+}
+
+.botao_secundario:hover{
     background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    border: 8px solid var(--botao-azul-efeito)
 }
